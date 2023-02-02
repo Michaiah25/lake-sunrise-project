@@ -1,0 +1,81 @@
+
+ /* style the banner */                                                                
+ header {
+   background-image: url("images/114578-coffee-cup-simple-background-minimalism.jpg");
+   height: 600px;
+   background-size: cover;
+   /* min-height: 600px; */
+   /* max-height: 700px; */
+   background-repeat: no-repeat;
+   background-position-y: -250px;
+}
+
+ :root {
+    --background:#F2D8C2;
+    --text: hsl(16, 22%, 10%);
+    --primary:
+    --lighter-background:
+    --accent:
+    --ink-hover:
+}
+body {
+    font-size: 135%;
+    margin: 0;
+    padding: 0;
+    background: var(--background);
+    color: var(--text);
+   font-family: 'quicksand',sans-serif;
+}
+h1 h2, h3, h4 {
+    font-family: 'Ubuntu', sans-serif;
+ }
+ p {
+    line-height: 1.35;
+    width: 60rem;
+ }
+ li {
+    width: 60rem;
+ }
+ a:link, a:visited {
+    color: var(--primary);
+ }
+  a:hover {
+    color: var(--link-hover);
+  }
+ header section {
+    padding: 1rem;
+    position:absolute;
+ }
+ /* center the centered-main class */
+ .centered-main {
+   width: 70%;
+   max-width: 70em;
+   margin: 0 auto;
+ }
+h2.centered-main {
+   padding-top: 4rem;
+}
+
+/* style floated boxes */
+.box-right {
+   box-sizing: content-box;
+   float: right;
+   width: 350px;
+   padding: 0.5em;
+   border: 2px solid var(--accent);
+   margin: 0 0 1em 1em;
+   border-radius: 4px ;
+}
+.box-right img {
+   width: 100%;
+}
+
+.clear-float {
+   clear: both;
+}
+
+footer {
+   background-color: var(--lighter-background);
+   padding: 0.2em 0;
+}
+ 
